@@ -2,6 +2,18 @@
   "components": [
     {
       "config": {
+        "assignments": null
+      },
+      "description": null,
+      "inputs_config": {},
+      "key": "3bb06c11-c144-43fa-a25f-d3f19baf6cae",
+      "loc": "712.5 262.5",
+      "parent_component_key": null,
+      "title": "Assignment",
+      "type": "Elixir.Df.Diagram.Components.Context.Variables.Assignment"
+    },
+    {
+      "config": {
         "path": null,
         "schema": null
       },
@@ -42,10 +54,28 @@
       "config": {
         "from": null
       },
+      "from": "3bb06c11-c144-43fa-a25f-d3f19baf6cae",
+      "key": "57247253-fa0e-4425-892e-6572f573173f",
+      "title": "",
+      "to": "d896bc1d-7264-48d0-848b-b6978ae91081"
+    },
+    {
+      "config": {
+        "from": null
+      },
       "from": "a345ac1a-f2a0-499b-97b2-b229d511a81f",
       "key": "d3266796-e2b5-48f4-95b4-06827d70c0c9",
       "title": "",
       "to": "d896bc1d-7264-48d0-848b-b6978ae91081"
+    },
+    {
+      "config": {
+        "from": null
+      },
+      "from": "a345ac1a-f2a0-499b-97b2-b229d511a81f",
+      "key": "df46c07c-682c-4f5c-86ce-63c47d1f823c",
+      "title": "",
+      "to": "3bb06c11-c144-43fa-a25f-d3f19baf6cae"
     }
   ],
   "meta": {},
