@@ -2,6 +2,24 @@
   "components": [
     {
       "config": {
+        "loop_end": null,
+        "loop_start": null,
+        "stop_condition": null
+      },
+      "description": null,
+      "inputs_config": {
+        "input_collection": {
+          "value": null
+        }
+      },
+      "key": "540da66a-329d-4c50-a245-3f914c940514",
+      "loc": "750 187.5",
+      "parent_component_key": null,
+      "title": "Loop",
+      "type": "Elixir.Df.Diagram.Components.Collections.ForEach"
+    },
+    {
+      "config": {
         "path": null,
         "schema": null
       },
@@ -38,6 +56,24 @@
   "data": {},
   "description": "",
   "links": [
+    {
+      "config": {
+        "from": null
+      },
+      "from": "540da66a-329d-4c50-a245-3f914c940514",
+      "key": "02ce881b-59d5-4253-883a-f550ca4a008b",
+      "title": "",
+      "to": "d896bc1d-7264-48d0-848b-b6978ae91081"
+    },
+    {
+      "config": {
+        "from": null
+      },
+      "from": "a345ac1a-f2a0-499b-97b2-b229d511a81f",
+      "key": "6f6c7257-4165-4926-934e-80f55e901b46",
+      "title": "",
+      "to": "540da66a-329d-4c50-a245-3f914c940514"
+    },
     {
       "config": {
         "from": null
