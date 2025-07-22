@@ -1,0 +1,54 @@
+{
+  "components": [
+    {
+      "config": {
+        "path": null,
+        "schema": null
+      },
+      "description": null,
+      "inputs_config": {
+        "data": {
+          "value": null
+        }
+      },
+      "key": "a345ac1a-f2a0-499b-97b2-b229d511a81f",
+      "loc": "562.5 412.5",
+      "parent_component_key": null,
+      "title": "Input",
+      "type": "Elixir.Df.Diagram.Components.Entrypoint.OpenAPI"
+    },
+    {
+      "config": {
+        "path": null,
+        "schema": null
+      },
+      "description": null,
+      "inputs_config": {
+        "data": {
+          "value": null
+        }
+      },
+      "key": "d896bc1d-7264-48d0-848b-b6978ae91081",
+      "loc": "900 412.5",
+      "parent_component_key": null,
+      "title": "Output",
+      "type": "Elixir.Df.Diagram.Components.Exit.OpenAPI"
+    }
+  ],
+  "data": {},
+  "description": "",
+  "links": [
+    {
+      "config": {
+        "from": null
+      },
+      "from": "a345ac1a-f2a0-499b-97b2-b229d511a81f",
+      "key": "d3266796-e2b5-48f4-95b4-06827d70c0c9",
+      "title": "",
+      "to": "d896bc1d-7264-48d0-848b-b6978ae91081"
+    }
+  ],
+  "meta": {},
+  "title": null,
+  "vars": []
+}
